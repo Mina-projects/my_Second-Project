@@ -13,13 +13,16 @@ public class MusicPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("LoadTheScene", 2f);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Invoke("LoadTheScene", 1f);
+        }
     }
 
     public void LoadTheScene()

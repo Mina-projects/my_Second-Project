@@ -13,7 +13,7 @@ namespace UnityStandardAssets.Utility
 
         [SerializeField] private WaypointCircuit circuit; // A reference to the waypoint-based route we should follow
 
-        [SerializeField] private float lookAheadForTargetOffset = 5;
+        [SerializeField] private float lookAheadForTargetOffset = 30;
         // The offset ahead along the route that the we will aim for
 
         [SerializeField] private float lookAheadForTargetFactor = .1f;
